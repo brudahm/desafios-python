@@ -3,7 +3,7 @@
 
 ### Sobre
 
-Nesse repositório, contém 3 pastas nomeadas Problema 1 (Conversão das horas), Problema 2 (Diferença das diagonais) e Problema 3 (Pares divisíveis). Dentro de cada uma delas contém 2 arquivos sendo 1 deles "nomedoproblema.py" a resolução do respectivo desafio, e o outro arquivo "nomedoproblema_test.py" o seu teste unitário.    
+Nesse repositório contém 3 pastas nomeadas Problema 1 (Conversão das horas), Problema 2 (Diferença das diagonais) e Problema 3 (Pares divisíveis). Dentro de cada uma delas contém 2 arquivos sendo 1 deles "nomedoproblema.py" a resolução do respectivo desafio, e o outro arquivo "nomedoproblema_test.py" o seu teste unitário.    
 Abaixo estão os enunciados dos desafios.  
 
 ### Problema 1
