@@ -1,5 +1,5 @@
 import unittest
-from timeconvertion import to_24
+from timeconversion import to_24
 
 class Test24Convertion(unittest.TestCase):
    # Edge Cases
