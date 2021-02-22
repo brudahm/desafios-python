@@ -18,8 +18,7 @@ class Test24Convertion(unittest.TestCase):
     def test_types(self):
         self.assertRaises(ValueError, to_24, "59:00:00AM")
         self.assertRaises(ValueError, to_24, "00:98:00PM")
-        self.assertRaises(ValueError, to_24, "59:78:87PM")
-        self.assertRaises(ValueError, to_24, "59:78:87PM")
+        self.assertRaises(ValueError, to_24, "59:78:87PM")        
         self.assertRaises(ValueError, to_24, "00:00:87AM")
 
     # Common Cases
