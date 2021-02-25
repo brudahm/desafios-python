@@ -1,7 +1,7 @@
 # Desafios em Python
 3 desafios desenvolvidos em linguagem Python e seus respectivos testes com framework de testes unitários.
 
-Tabela de conteúdos
+Tabela de conteúdo
 =================
 <!--ts-->
    * [Tabela de Conteudo](#tabela-de-conteudo)
