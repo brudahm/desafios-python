@@ -6,12 +6,12 @@ Tabela de conteúdos
 <!--ts-->
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Sobre](#sobre)
-   * [Rodando os Testes Unitários](#rodando_os_testes_unitarios)
-   * [Usando Funções no Interpretador](#usando_funçoes_no_interpretador)
+   * [Rodando os Testes Unitários](#rodando-os-testes-unitários)
+   * [Usando Funções no Interpretador](#usando-funções-no-interpretador)
    * Enunciados:
-      * [Problema 1](#Problema_1)
-      * [Problema 2](#Problema_2)
-      * [Problema 3](#Problema_3)   
+      * [Problema 1](#problema-1)
+      * [Problema 2](#problema-2)
+      * [Problema 3](#problema-3)   
    * [Tecnologias](#tecnologias)
 <!--te-->
 
