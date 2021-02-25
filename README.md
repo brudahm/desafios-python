@@ -22,13 +22,17 @@ No final da página estão os enunciados dos desafios.
 
 ## Rodando os Testes Unitários
 
-Para rodar os testes unitários clone o repositorio, entre no diretorio baixado, vá até a pasta do desafio e faça:
+Para rodar os testes unitários clone o repositorio, entre no diretorio baixado, vá até a pasta do desafio e faça:  
+
+Problema 1:
 ```
 python -m unittest timeconversion_test.py
 ```
+Problema 2:
 ```
 python -m unittest diagonaldif_test.py
 ```
+Problema 3:
 ```
 python -m unittest divisiblepair_test.py
 ```
