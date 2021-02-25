@@ -1,10 +1,78 @@
 # Desafios em Python
 3 desafios desenvolvidos em linguagem Python e seus respectivos testes com framework de testes unitários.
 
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Sobre](#sobre)
+   * [Rodando os Testes Unitários](#rodando_os_Testes_Unitários)
+   * [Usando Funções no Interpretador](#usando_Funções_no_Interpretador)
+   * Enunciados:
+      * [Problema 1](#problema_1)
+      * [Problema 2](#problema_2)
+      * [Problema 3](#problema_3)   
+   * [Tecnologias](#tecnologias)
+<!--te-->
+
 ### Sobre
 
 Nesse repositório contém 3 pastas nomeadas Problema 1 (Conversão das horas), Problema 2 (Diferença das diagonais) e Problema 3 (Pares divisíveis). Dentro de cada uma delas contém 2 arquivos sendo 1 deles "nomedoproblema.py" a resolução do respectivo desafio, e o outro arquivo "nomedoproblema_test.py" o seu teste unitário.    
-Abaixo estão os enunciados dos desafios.  
+No final da página estão os enunciados dos desafios.  
+
+## Rodando os Testes Unitários
+
+Para rodar os testes unitários clone o repositorio, entre no diretorio baixado, vá até a pasta do desafio e faça:
+```
+python -m unittest timeconversion_test.py
+```
+```
+python -m unittest diagonaldif_test.py
+```
+```
+python -m unittest divisiblepair_test.py
+```
+
+## Usando Funções no Interpretador
+
+Para usar as funções definidas nesse repositório em uma sessão de interpretador python, basta executar o seguinte comando python:
+
+```python
+file = open("Problema 1 (Conversão das horas)/timeconversion.py")
+
+exec(open("Problema 1 (Conversão das horas)/timeconversion.py").read())
+```
+E então, chamar a função passando o valor:
+
+```python
+to_24("12:00:00PM")
+```
+Siga os mesmos passos com os outros arquivos:
+```python
+file = open("Problema 2 (Diferença das diagonais)/diagonaldif.py")
+
+exec(open("Problema 2 (Diferença das diagonais)/diagonaldif.py").read())
+```
+Função:
+```python
+diagonal_difference(arr = [
+[1, 2, 3],
+[4, 5, 6],
+[9, 8, 9]
+])
+```
+E por fim:
+```python
+file = (open("Problema 3 (Pares divisíveis)/divisiblepair.py")
+
+exec(open("Problema 3 (Pares divisíveis)/divisiblepair.py").read())
+```
+Função:
+```python
+numberOfPairs(
+ar = [1, 2, 3, 4, 5, 6], 
+k = 5)
+```
 
 ### Problema 1
 
@@ -65,3 +133,6 @@ Saída: 5
 (2, 4) => ar[2] + ar[4] = 2 + 1 = 3  
 (4, 5) => ar[4] + ar[5] = 1 + 2 = 3  
 
+### Tecnologias
+* Python 3
+* UnitTest FrameWork
