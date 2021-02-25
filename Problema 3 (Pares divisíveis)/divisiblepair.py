@@ -5,7 +5,7 @@ def numberOfPairs(ar, k):
     n = len(ar)
 
     if k == 0:
-        raise ValueError("Não é possível dividir por zero")
+        raise ValueError("Nao e possivel dividir por zero")
 
     for i in range(n):
 
